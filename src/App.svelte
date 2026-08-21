@@ -169,7 +169,7 @@
 <div class="app">
 	<header class="header">
 		<div class="brand">
-			<img src="/logo.svg" alt="KeyGremlin"/>
+			<img src={`${import.meta.env.BASE_URL}logo.svg`} alt="KeyGremlin" />
 			<span>KEYGREMLIN</span>
 		</div>
 
